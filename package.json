@@ -1,6 +1,6 @@
 {
   "name": "vue2bem",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Creating scss blocks in style section from class in template section",
   "main": "build/src/index.js",
   "bin": {
