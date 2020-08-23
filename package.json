@@ -1,6 +1,6 @@
 {
   "name": "vue2bem",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Creating scss blocks in style section from class in template section",
   "main": "build/src/index.js",
   "bin": {
@@ -16,7 +16,10 @@
     "type": "git",
     "url": "https://github.com/RokeAlvo/vue2bem.git"
   },
-  "keywords": ["BEM", "vue.js"],
+  "keywords": [
+    "BEM",
+    "vue.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "check": "gts check",
