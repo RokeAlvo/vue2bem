@@ -52,7 +52,6 @@ export default {};
 
 <style lang="scss">
 .block1 {
-.block1 {
     &__elem1 {}
     &__elem2 {
         &_elem2-mod1 {}
