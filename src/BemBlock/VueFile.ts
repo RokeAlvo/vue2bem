@@ -19,9 +19,7 @@ export class VueFile {
   }
 
   private get classNames() {
-    const classesSearch = this.template.match(
-      /(?<=class)(\s*)=(\s*)(").*?(")/gm
-    );
+    const classesSearch = this.template.match(/[^:]class.*"/gm);
     const classesString = classesSearch !== null ? classesSearch : [];
     const classesContent = classesString.map(res => {
       const result = res.match(/(?<==").*?(?=")/g);
